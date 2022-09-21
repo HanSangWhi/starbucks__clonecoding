@@ -747,7 +747,7 @@ h2{
 
 .sign__inner{
   border-bottom: 1px solid #4b615b;
-  margin-bottom: 22px;
+  /* margin-bottom: 22px; */
 }
 
 .sign-title__wrap{
