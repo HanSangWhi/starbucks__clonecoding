@@ -17,11 +17,79 @@ a {
 }
 
 label[for] {
-  cursor:pointer;
+  cursor: pointer;
   user-select: none;
 }
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -30,7 +98,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   background: transparent;
 }
 
-h2{
+h2 {
   /* font-weight: normal; */
 }
 
@@ -347,29 +415,29 @@ h2{
 }
 
 /* 커스텀 */
-.con{
+.con {
   max-width: 1100px;
 }
 
-.top-bar__wrap{
+.top-bar__wrap {
   height: 120px;
 }
 
-.top-bar{
+.top-bar {
   background-color: #f6f5ef;
   width: 100%;
-  height:100%;
+  height: 120px;
   z-index: 99;
   position: fixed;
-  top:0;
+  top: 0;
 }
 
-.top-bar__inner{
+.top-bar__inner {
   position: relative;
 }
 
-.top-bar__inner h1.logo{
-  height:75px;
+.top-bar__inner h1.logo {
+  height: 75px;
   width: 75px;
   position: absolute;
   top: 22px;
@@ -377,170 +445,168 @@ h2{
   left: 0;
 }
 
-.top-bar__inner h1.logo a{
-  background:url(https://www.starbucks.co.kr/common/img/common/logo.png);
-  display:block;
+.top-bar__inner h1.logo a {
+  background: url(https://www.starbucks.co.kr/common/img/common/logo.png);
+  display: block;
   width: 100%;
   height: 100%;
 }
 
-.menu-bar-1__wrap{
+.menu-bar-1__wrap {
   justify-content: flex-end;
-  padding-top:15px;
+  padding-top: 15px;
   height: 20px;
   line-height: 1;
-  margin-right:54px;
+  margin-right: 54px;
 }
 
-.menu-bar-1{
+.menu-bar-1 {
   width: 464px;
   /* padding-right: 94px; */
 }
 
-.menu-bar-1>ul>li{
+.menu-bar-1>ul>li {
   text-align: center;
-  height:20px;
+  height: 20px;
 }
 
-.menu-bar-1>ul>li.menu-bar-1__1{
-  width:76px;
+.menu-bar-1>ul>li.menu-bar-1__1 {
+  width: 76px;
 }
 
-.menu-bar-1>ul>li.menu-bar-1__2{
+.menu-bar-1>ul>li.menu-bar-1__2 {
   width: 107px;
   margin-left: 1px;
 }
 
-.menu-bar-1>ul>li.menu-bar-1__3{
+.menu-bar-1>ul>li.menu-bar-1__3 {
   width: 181px;
   margin-left: 1px;
 }
 
-.menu-bar-1>ul>li.menu-bar-1__4{
+.menu-bar-1>ul>li.menu-bar-1__4 {
   width: 97px;
   margin-left: 1px;
 }
 
-.menu-bar-1>ul>li>a{
+.menu-bar-1>ul>li>a {
   font-size: 13px;
   line-height: 20px;
-  color:#555;
+  color: #555;
 }
 
-.top-bar__inner p.btn__search{
+.top-bar__inner p.btn__search {
   width: 32px;
   height: 32px;
   position: relative;
-  margin-top:-6px;
-  margin-left:2px;
+  margin-top: -6px;
+  margin-left: 2px;
 }
 
-.top-bar__inner p.btn__search a{
-  width:34px;
-  height:34px;
-  display:block;
+.top-bar__inner p.btn__search a {
+  width: 34px;
+  height: 34px;
+  display: block;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
-  position:absolute;
-  top:0;
-}
-
-.top-bar__inner p.btn__search a img{
   position: absolute;
-  right:7px;
-  top:6px;
+  top: 0;
 }
 
-.menu-bar-2{
+.top-bar__inner p.btn__search a img {
+  position: absolute;
+  right: 7px;
+  top: 6px;
+}
+
+.menu-bar-2 {
   justify-content: flex-end;
   height: 66px;
   margin-top: 19px;
 }
 
-.menu-bar-2>ul{
+.menu-bar-2>ul {
   width: 750px;
 }
 
-.menu-bar-2>ul>li{
+.menu-bar-2>ul>li {
   text-align: center;
 }
 
-.menu-bar-2 ul li.menu-bar-2__1{
-  width:89px;
+.menu-bar-2 ul li.menu-bar-2__1 {
+  width: 89px;
 }
 
-.menu-bar-2 ul li.menu-bar-2__2{
-  width:73px;
+.menu-bar-2 ul li.menu-bar-2__2 {
+  width: 73px;
 }
 
-.menu-bar-2 ul li.menu-bar-2__3{
-  width:79px;
+.menu-bar-2 ul li.menu-bar-2__3 {
+  width: 79px;
 }
 
-.menu-bar-2 ul li.menu-bar-2__4{
-  width:153px;
+.menu-bar-2 ul li.menu-bar-2__4 {
+  width: 153px;
 }
 
-.menu-bar-2 ul li.menu-bar-2__5{
-  width:225px;
+.menu-bar-2 ul li.menu-bar-2__5 {
+  width: 225px;
 }
 
-.menu-bar-2 ul li.menu-bar-2__6{
-  width:131px;
+.menu-bar-2 ul li.menu-bar-2__6 {
+  width: 131px;
 }
 
-.menu-bar-2>ul>li>h2{
+.menu-bar-2>ul>li>h2 {}
 
-}
-
-.menu-bar-2>ul>li h2 a{
+.menu-bar-2>ul>li h2 a {
   color: #333;
   height: 56px;
   line-height: 20px;
-  padding-top:10px;
-  font-size:13px;
+  padding-top: 10px;
+  font-size: 13px;
   font-weight: normal;
 }
 
-.top-wrap{
+.top-wrap {
   position: relative;
 }
 
-.badge-box{
+.badge-box {
   width: 140px;
   position: fixed;
-  right:1%;
-  top:154px;
+  right: 1%;
+  top: 154px;
   z-index: 99;
 }
 
-.banner{
+.banner {
   background-image: url(https://image.istarbucks.co.kr/upload/common/img/main/2022/2022Autumn_main_bg_02.jpg);
-  height: 646px; 
-  background-size:cover;
+  height: 646px;
+  background-size: cover;
   background-position: 63% bottom;
 }
 
-.banner-inner{
+.banner-inner {
   position: relative;
 }
 
-.banner-slogan{
+.banner-slogan {
   width: 332px;
   position: absolute;
   top: 30%;
-  left:-10.8%;
+  left: -10.8%;
 }
 
-.banner-slogan__btn{
+.banner-slogan__btn {
   position: absolute;
-  top:64%;
-  width:332px;
+  top: 64%;
+  width: 332px;
 }
 
-.banner-slogan__btn .btn{
-  border:2px solid #12362c;
+.banner-slogan__btn .btn {
+  border: 2px solid #12362c;
   color: #12362c;
   width: 130px;
   font-size: 15px;
@@ -549,247 +615,245 @@ h2{
   box-sizing: border-box;
   line-height: 34px;
   margin: 0 auto;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-.banner-drink__1{
+.banner-drink__1 {
   width: 23.5%;
   position: absolute;
-  top:14%;
-  left:33%;
+  top: 14%;
+  left: 33%;
 }
 
-.banner-drink__2{
-  width:23.2%;
-  position:absolute;
-  top:24%;
-  left:55%;
-}
-
-.banner-drink__3{
-  width:23.9%;
+.banner-drink__2 {
+  width: 23.2%;
   position: absolute;
-  top:15%;
-  right:0;
+  top: 24%;
+  left: 55%;
+}
+
+.banner-drink__3 {
+  width: 23.9%;
+  position: absolute;
+  top: 15%;
+  right: 0;
 }
 
 /* banner-linemenu */
-.linemenu{
-  width:100%;
-  height:62px;
-  position:relative;
+.linemenu {
+  width: 100%;
+  height: 62px;
+  position: relative;
 }
 
-.linemenu__left{
+.linemenu__left {
   background-color: #111;
-  width:56.4%;
+  width: 56.4%;
 }
 
-.linemenu__right{
-  background-color:#f6f5ef;
-  width:43.6%;
+.linemenu__right {
+  background-color: #f6f5ef;
+  width: 43.6%;
 }
 
-.linemenu__content{
+.linemenu__content {
   position: absolute;
   width: 1280px;
-  height:100%;
-  right:50%;
-  margin-right:-640px;
+  height: 100%;
+  right: 50%;
+  margin-right: -640px;
 }
 
-.linemenu__content-left__inner .icon-wrap{
+.linemenu__content-left__inner .icon-wrap {
   /* width:100%; */
 }
 
-.linemenu__content-left{
-  width:50%;
-  height:100%;
+.linemenu__content-left {
+  width: 50%;
+  height: 100%;
   align-items: center;
 }
 
-.linemenu__content-right{
-  width:50%;
-  height:100%;
+.linemenu__content-right {
+  width: 50%;
+  height: 100%;
 }
 
-.linemenu__content-left__inner{
-  width:621px;
-  height:36px;
-  margin-left:89px;
-  margin-top:13px;
+.linemenu__content-left__inner {
+  width: 621px;
+  height: 36px;
+  margin-left: 89px;
+  margin-top: 13px;
   justify-content: space-between;
 }
 
-.content-notice{
-  height:100%;
+.content-notice {
+  height: 100%;
   width: 585px;
 }
 
-.content-notice .title{
-  width:65px;
+.content-notice .title {
+  width: 65px;
   flex-shrink: 0;
   text-align: center;
-  font-size:17px;
+  font-size: 17px;
   /* font-weight: bold; */
 }
 
-.content-notice .sub-title{
-  width:520px;
+.content-notice .sub-title {
+  width: 520px;
   flex-shrink: 0;
-  margin-left:15px;
-  margin-top:3px;
-  font-size:14px;
-  height:26px;
+  margin-left: 15px;
+  margin-top: 3px;
+  font-size: 14px;
+  height: 26px;
 }
 
-.content-notice .title p{
-  color:white;
-}
-
-.content-notice .sub-title ul>li>a{
+.content-notice .title p {
   color: white;
 }
 
-.linemenu__content-right{
+.content-notice .sub-title ul>li>a {
+  color: white;
+}
+
+.linemenu__content-right {
   align-items: center;
   justify-content: flex-end;
   /* margin-left:5%; */
 
 }
 
-.linemenu__content-right__inner{
+.linemenu__content-right__inner {
   width: 234px;
-  height:36px;
+  height: 36px;
   justify-content: space-between;
   align-items: center;
-  margin-right:110px;
+  margin-right: 110px;
 }
 
-.content-icon__left{
-  width:36px;
-  height:36px;
-  position:relative;
-  bottom:7px;
+.content-icon__left {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  bottom: 7px;
 }
 
-.content-icon__left span{
-  width:36px;
-  height:36px;
+.content-icon__left span {
+  width: 36px;
+  height: 36px;
   background: url(https://www.starbucks.co.kr/common/img/common/btn_notice_plus.png);
   background-size: 36px;
   position: absolute;
   overflow: hidden;
 }
 
-.content-promotion{
-  margin-right:11%;
+.content-promotion {
+  margin-right: 11%;
   width: 129px;
   /* height: 100%; */
 }
 
-.content-promotion p.title{
+.content-promotion p.title {
   font-size: 17px;
   font-weight: bold;
   line-height: 20px;
 }
 
-.content-icon__right{
+.content-icon__right {
   width: 36px;
-  height:36px;
+  height: 36px;
   position: relative;
 }
 
-.content-icon__right span{
+.content-icon__right span {
   background: url(https://image.istarbucks.co.kr/common/img/common/btn_prom_up.png
-  );
+);
   position: absolute;
-  width:36px;
-  height:36px;
+  width: 36px;
+  height: 36px;
   overflow: hidden;
 }
 
 /* starbucks-rewards */
-.starbucks-rewards{
+.starbucks-rewards {
   background-color: #1e3932;
-  padding:30px 0px 40px 0px;
+  padding: 30px 0px 40px 0px;
 }
 
-.starbucks-rewards__inner{
+.starbucks-rewards__inner {
   max-width: 1080px;
 }
 
-.starbucks-rewards__logo{
+.starbucks-rewards__logo {
   margin: 0px 40px;
 }
 
-.starbucks-rewards__logo .img-box{
-  width:176px;
+.starbucks-rewards__logo .img-box {
+  width: 176px;
 }
+
 /* .starbucks-reward-logo .img-box{
   width: 176px;
 } */
 
-.starbucks-rewards__contents{
+.starbucks-rewards__contents {
   flex-direction: column;
   width: 100%;
   color: white;
-  padding-right:30px;
-  
+  padding-right: 30px;
+
 }
 
-.starbucks-rewards__contents .sign{
-}
+.starbucks-rewards__contents .sign {}
 
-.starbucks-rewards__contents .gift-card{
-  
-}
+.starbucks-rewards__contents .gift-card {}
 
-.sign__inner{
+.sign__inner {
   border-bottom: 1px solid #4b615b;
   margin-bottom: 22px;
 }
 
-.sign-title__wrap{
+.sign-title__wrap {
   width: 100%;
 }
 
-h1.sign__title{
+h1.sign__title {
   font-size: 26px;
   font-weight: normal;
   margin-bottom: 12px;
   line-height: 1.4;
 }
 
-p.sign__sub-title{
+p.sign__sub-title {
   font-size: 17px;
-  margin-bottom:14px;
+  margin-bottom: 14px;
   line-height: 1.4;
 }
 
-.btn-sign__wrap{
-  width:200px;
+.btn-sign__wrap {
+  width: 200px;
   /* flex-grow:1; */
   align-items: flex-end;
   justify-content: flex-end;
   margin-bottom: 20px;
 }
 
-.btn-sign__wrap .btn__sign-in{
+.btn-sign__wrap .btn__sign-in {
   background-color: #00704a;
   border: 2px solid #00704a;
   padding: 0px 18.5px;
   font-size: 15px;
   color: white;
   border-radius: 5px;
-  margin-right:9px;
+  margin-right: 9px;
   height: 34px;
   line-height: 34px;
 }
 
-.btn-sign__wrap .btn__log-in{
+.btn-sign__wrap .btn__log-in {
   background-color: transparent;
-  border:2px solid white;
+  border: 2px solid white;
   padding: 0px 18.5px;
   height: 34px;
   line-height: 34px;
@@ -797,29 +861,119 @@ p.sign__sub-title{
   color: white;
 }
 
-.gift-card__title{
+.gift-card__title {
   width: 100%;
 }
 
-.gift-card__title p{
+.gift-card__title p {
   font-size: 14px;
   line-height: 1.4;
 }
 
-.btn__gift-card__wrap{
+.btn__gift-card__wrap {
   width: 200px;
   text-align: center;
   box-sizing: border-box;
   justify-content: flex-end;
 }
 
-.btn__gift-card__wrap .btn__gift-card{
+.btn__gift-card__wrap .btn__gift-card {
   border-radius: 5px;
   /* padding: 0px 18.5px; */
-  border:2px solid white;
+  border: 2px solid white;
   height: 30px;
   line-height: 30px;
   font-size: 15px;
   width: 179px;
+  display: block;
+}
+
+/* starbucks-add */
+
+.starbucks-add {
+  background-color: #f0831e;
+  height:573px;
+  position: relative;
+}
+
+.starbucks-add::before{
+  background-image: url(https://image.istarbucks.co.kr/upload/common/img/main/2022/2022_Autumn_bean_bg_left.png);
+  position: absolute;
+  height: 510px;
+  bottom:0;
+  left:0;
+  width: 390px;
+  content:"";
   display:block;
+  background-position: left bottom;
+  background-repeat:no-repeat;
+}
+
+.starbucks-add::after{
+  background-image: url(https://image.istarbucks.co.kr/upload/common/img/main/2022/2022_Autumn_bean_bg_right.png);
+  position: absolute;
+  height: 504px;
+  width: 457px;
+  bottom:0;
+  right:0;
+  content:"";
+  display:block;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.starbucks-add__inner{
+  height:100%;
+  position:relative;
+  max-width: 1124px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.coffee1__img{
+  max-width: 340px;
+  width: 30.4%;
+  position: absolute;
+  top:14.4%;
+  left:13.5%;
+}
+
+.coffee1__txt-box{
+  position: absolute;
+  max-width: 484px;
+  width: 43%;
+  top:32.7%;
+  right:3%;
+}
+
+.btn__txt-detail{
+  width: 125px;
+  height: 38px;
+  margin-top: 39px;
+}
+
+.btn__txt-detail a{
+  width: 100%;
+  height: 100%;
+  line-height: 34px;
+  font-size:15px;
+  text-align: center;
+  border-radius: 5px;
+  color: #403225;
+  border: 2px solid #403225;
+  box-sizing:border-box;
+}
+
+.starbucks-add2{
+  height: 400px;
+  position: relative;
+  overflow:hidden;
+  display:block;
+}
+
+.starbucks-add2 img{
+  max-width: none;
+  width: auto;
+  height: 100%;
+  vertical-align: top;
 }
